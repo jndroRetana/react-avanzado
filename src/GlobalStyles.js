@@ -12,6 +12,10 @@ export const GLobalStyle = createGlobalStyle`
     box-sizing: inherit;
   }
 
+  a{
+    text-decoration: none
+  }
+
   ul, li, h1, h2, h3, p, button {
     margin: 0;
     padding: 0;
