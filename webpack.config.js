@@ -15,6 +15,10 @@ module.exports = {
           loader: "babel-loader",
           options: {
             presets: ["@babel/preset-env", "@babel/preset-react"],
+            //para user await y async
+            plugins: [
+              ["@babel/plugin-transform-runtime", { regenerator: true }],
+            ],
           },
         },
       },
